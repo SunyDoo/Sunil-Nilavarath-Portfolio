@@ -16,16 +16,7 @@ export default function Footer() {
     >
       <MDBContainer className="p-4 pb-0">
         <section className="mb-4">
-          <MDBBtn
-            floating
-            className="m-1"
-            style={{ backgroundColor: "#3b5998" }}
-            href="https://www.facebook.com/sunil.nilavarath/"
-            role="button"
-          >
-            <MDBIcon fab icon="facebook-f" />
-          </MDBBtn>
-
+         
           <MDBBtn
             floating
             className="m-1"
@@ -44,6 +35,16 @@ export default function Footer() {
             role="button"
           >
             <MDBIcon fab icon="github" />
+          </MDBBtn>
+
+          <MDBBtn
+            floating
+            className="m-1"
+            style={{ backgroundColor: "#333333" }}
+            href="https://medium.com/@snilavarath"
+            role="button"
+          >
+            <MDBIcon fab icon="medium" />
           </MDBBtn>
         </section>
       </MDBContainer>
