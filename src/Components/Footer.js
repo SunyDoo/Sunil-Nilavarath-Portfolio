@@ -51,7 +51,6 @@ export default function Footer() {
         className="text-center p-3"
         style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
       >
-      
       </div>
     </MDBFooter>
   );
