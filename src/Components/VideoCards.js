@@ -1,22 +1,40 @@
-import React from 'react';
+import React from "react";
 import youtube from "../videos";
-import { MDBCard, MDBListGroup, MDBListGroupItem } from 'mdb-react-ui-kit';
 
 export default function VideoCards() {
-    
   return (
-    <div class="card mb-3">
-  <img src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" class="card-img-top" alt="Wild Landscape"/>
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">
-      This is a wider card with supporting text below as a natural lead-in to additional
-      content. This content is a little bit longer.
-    </p>
-    <p class="card-text">
-      <small class="text-muted">Last updated 3 mins ago</small>
-    </p>
-  </div>
-</div>
+    <>
+      <center>        
+          <div class="col-sm-6">
+            {youtube.videos.map((video) => (
+              <div class="card mb-3 " width="18rem">
+                <center>
+                  <iframe
+                    width="900"
+                    height="500"
+                    src={video.link}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    title="Embedded youtube"
+                  />
+                </center>
+                <div class="card-body">
+                  <h5 class="card-title">{video.name}</h5>
+                  <ul class="card-text">
+                    {video.bullets.map((bullet) => (
+                      <li id={video.id}>{bullet}</li>
+                    ))}
+                  </ul>
+                  <p class="card-text">
+                    <small class="text-muted">GitHub Url: {video.github}</small>
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>    
+      </center>
+    </>
   );
 }
+
+// id={video.id}

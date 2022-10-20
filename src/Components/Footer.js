@@ -9,7 +9,7 @@ import {
 export default function Footer() {
   return (
     <MDBFooter
-      className="text-center text-white fixed-bottom"
+      className="text-center text-white"
       style={{ backgroundColor: "#212121" }}
     >
       <MDBContainer className="p-4 pb-0">
@@ -51,9 +51,7 @@ export default function Footer() {
         className="text-center p-3"
         style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
       >
-        <a className="text-white" href="https://flatironschool.com/">
-          FlatironSchool.com
-        </a>
+      
       </div>
     </MDBFooter>
   );

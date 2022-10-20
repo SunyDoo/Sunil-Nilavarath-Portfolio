@@ -6,6 +6,7 @@ import Footer from "./Components/Footer";
 import YoutubeVids from "./Components/YoutubeVids";
 import Resume from "./Components/Resume";
 import youtube from "./videos";
+import VideoCards from "./Components/VideoCards";
 
 function App() {
   console.log(youtube.videos.bullets);
@@ -15,7 +16,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/resume" element={<Resume />} />
-        <Route exact path="/projects" element={<YoutubeVids />} />
+        <Route exact path="/projects" element={<VideoCards />} />
       </Routes>
       <Footer />
     </div>

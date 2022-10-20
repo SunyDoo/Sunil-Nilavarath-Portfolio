@@ -37,7 +37,7 @@ export default function NavBar() {
               </MDBNavbarItem>
               <MDBNavbarItem>
                 <MDBNavbarLink href="/projects" className='text-light bg-dark'>
-                  Flatiron School Projects
+                  Projects
                 </MDBNavbarLink>
               </MDBNavbarItem>
             </MDBNavbarNav>
