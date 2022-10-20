@@ -5,8 +5,10 @@ import Home from "./Components/Home";
 import Footer from "./Components/Footer";
 import YoutubeVids from "./Components/YoutubeVids";
 import Resume from "./Components/Resume";
+import youtube from "./videos";
 
 function App() {
+  console.log(youtube.videos.bullets);
   return (
     <div className="App">
       <NavBar />
@@ -17,7 +19,6 @@ function App() {
       </Routes>
       <Footer />
     </div>
-    
   );
 }
 
