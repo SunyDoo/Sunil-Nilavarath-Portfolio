@@ -16,10 +16,14 @@ function Home() {
         />
       </MDBRipple>
       <h3 className="text-light bg-dark">
-        Currently residing in Staten Island, NY, I have been a respiratory
-        therapist for the past 8 years. After working through a pandemic, I felt
-        it was time to move on from this profession, so I entered the Flatiron
-        School with the ambition of becoming a software engineer.
+        Passionate full-stack developer experienced in object-oriented
+        programming with proficiencies in Ruby on Rails, React, JavaScript-based
+        programming, and PostgreSQL. 8 years of experience in healthcare, where
+        I developed strong skills in analytical thinking and an ability to
+        thrive in fast-paced, challenging, and collaborative work environments
+        to deliver life-saving care to patients in a critical care setting.
+        Highly motivated to advance and expand my coding skill set through
+        mentorship and challenging projects as a software engineer.
       </h3>
       <div className="video-responsive"></div>
     </MDBContainer>

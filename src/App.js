@@ -3,13 +3,11 @@ import "./App.css";
 import NavBar from "./Components/NavBar";
 import Home from "./Components/Home";
 import Footer from "./Components/Footer";
-import YoutubeVids from "./Components/YoutubeVids";
 import Resume from "./Components/Resume";
-import youtube from "./videos";
 import VideoCards from "./Components/VideoCards";
 
 function App() {
-  console.log(youtube.videos.bullets);
+
   return (
     <div className="App">
       <NavBar />
