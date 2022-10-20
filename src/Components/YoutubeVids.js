@@ -2,7 +2,7 @@ import React from "react";
 import { MDBContainer } from "mdb-react-ui-kit";
 
 const YoutubeVids = () => (
-    <>
+    <>    
     <div>
         <h2 className='text-light'>The following are video demos for projects I've made throughout my time at the Flatiron School</h2>
     </div>
