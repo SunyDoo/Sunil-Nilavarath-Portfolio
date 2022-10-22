@@ -33,10 +33,12 @@ export default function NavBar() {
             <MDBNavbarNav className="me-auto mb-2 mb-lg-0">
               <MDBNavbarItem className="active"></MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink href="/resume" className='text-light bg-dark'>Resume</MDBNavbarLink>
+                <MDBNavbarLink href="/resume" className="text-light bg-dark">
+                  Resume
+                </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink href="/projects" className='text-light bg-dark'>
+                <MDBNavbarLink href="/projects" className="text-light bg-dark">
                   Projects
                 </MDBNavbarLink>
               </MDBNavbarItem>

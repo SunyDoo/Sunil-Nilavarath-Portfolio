@@ -24,7 +24,7 @@ const youtube ={
       {
         "id": 3,
         "name": "Sunil's Movie Reviews",
-        "link": "https://www.youtube.com/embed/hErkcaaHIC8",
+        "link": "https://www.youtube.com/embed/0ruEEsFAD3c",
         "github": "https://github.com/SunyDoo/phase-3-frontend",
         "bullets": 
           [
@@ -34,7 +34,7 @@ const youtube ={
       {
         "id": 4,
         "name": "Sunil's Gym",
-        "link": "https://www.youtube.com/embed/IzDIefsyMbU",
+        "link": "https://www.youtube.com/embed/hErkcaaHIC8",
         "github": "https://github.com/SunyDoo/Phase2-Final-Project",
         "bullets": 
           [
