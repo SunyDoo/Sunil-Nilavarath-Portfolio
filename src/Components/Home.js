@@ -37,6 +37,14 @@ function Home() {
       <p className="text-light bg-dark">
         Associate of Applied Science: Respiratory Care - Molloy University
       </p>
+      <br></br>
+      <h5 className="text-light bg-dark">Hobbies</h5>
+      <p className="text-light bg-dark">
+        When I'm not working I enjoy playing video games, watching horror movies
+        with my wife, playing guitar, and hanging with my dog. Recently my wife
+        gave birth to twins, so these days I spend all of my time, (literally),
+        taking care of them. Wouldn't change a thing!
+      </p>
 
       <div className="video-responsive"></div>
     </MDBContainer>
