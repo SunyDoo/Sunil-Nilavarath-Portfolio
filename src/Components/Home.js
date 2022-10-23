@@ -15,7 +15,8 @@ function Home() {
           alt="Sunil Nilavarath"
         />
       </MDBRipple>
-      <h3 className="text-light bg-dark">
+      <h5 className="text-light bg-dark">Background</h5>
+      <p className="text-light bg-dark">
         Passionate full-stack developer experienced in object-oriented
         programming with proficiencies in Ruby on Rails, React, JavaScript-based
         programming, and PostgreSQL. 8 years of experience in healthcare, where
@@ -24,7 +25,19 @@ function Home() {
         to deliver life-saving care to patients in a critical care setting.
         Highly motivated to advance and expand my coding skill set through
         mentorship and challenging projects as a software engineer.
-      </h3>
+      </p>
+      <br></br>
+      <h5 className="text-light bg-dark">Education</h5>
+      <p className="text-light bg-dark">
+        Full Stack Software Engineering Accreditation- Flatiron School
+      </p>
+      <p className="text-light bg-dark">
+        Bachelor of Science: Biology - State University of New York at Albany
+      </p>
+      <p className="text-light bg-dark">
+        Associate of Applied Science: Respiratory Care - Molloy University
+      </p>
+
       <div className="video-responsive"></div>
     </MDBContainer>
   );
