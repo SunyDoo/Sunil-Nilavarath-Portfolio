@@ -9,7 +9,7 @@ function Resume() {
       style={{ position: "relative" }}
     >
       <img
-        src="https://i.pinimg.com/originals/7f/4c/91/7f4c916040df17c4251622bf1bd837bf.jpg"
+        src="https://i.pinimg.com/originals/d8/d6/59/d8d65963bb7f24aac9d29b0f30442f53.jpg"
         className="img-fluid shadow-4"
         alt="Resume"
       />
