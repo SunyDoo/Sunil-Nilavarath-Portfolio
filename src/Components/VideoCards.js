@@ -7,7 +7,7 @@ export default function VideoCards() {
       <center>
         <div className="col-sm-6">
           {youtube.videos.map((video) => (
-            <div className="card mb-3 ">
+            <div className="card mb-3">
               <center>
                 <iframe
                   width="600"

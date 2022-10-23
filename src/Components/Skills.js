@@ -1,7 +1,7 @@
 import React from "react";
 import { MDBContainer } from "mdb-react-ui-kit";
 
-function Resume() {
+function Skills() {
   return (
     <MDBContainer
       fluid
@@ -9,7 +9,7 @@ function Resume() {
       style={{ position: "relative" }}
     >
       <img
-        src="https://i.pinimg.com/originals/7f/4c/91/7f4c916040df17c4251622bf1bd837bf.jpg"
+        src="https://i.pinimg.com/originals/ff/f0/da/fff0da24ccdcc48c57b14f44bd2de914.jpg"
         className="img-fluid shadow-4"
         alt="Resume"
       />
@@ -18,4 +18,4 @@ function Resume() {
   );
 }
 
-export default Resume;
+export default Skills;

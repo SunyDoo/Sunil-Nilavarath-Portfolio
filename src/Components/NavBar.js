@@ -1,46 +1,102 @@
 import React, { useState } from "react";
 import {
-  MDBNavbar,
   MDBContainer,
+  MDBNavbar,
+  MDBNavbarToggler,
   MDBIcon,
   MDBNavbarNav,
   MDBNavbarItem,
   MDBNavbarLink,
-  MDBNavbarToggler,
-  MDBNavbarBrand,
+  MDBBtn,
+
   MDBCollapse,
 } from "mdb-react-ui-kit";
 
-export default function NavBar() {
-  const [showNavColor, setShowNavColor] = useState(false);
+export default function App() {
+  const [showBasic, setShowBasic] = useState(false);
 
   return (
     <>
-      <MDBNavbar expand="lg" dark bgColor="dark">
+      <div className="banner">
+        <img
+          src="https://i.pinimg.com/originals/bf/ad/41/bfad41f2ac24994cb61872cfb455e382.jpg"
+          className="img-fluid shadow-4"
+          alt="Banner"
+          width="40%"
+          height="10%"
+        />
+      </div>
+      <MDBNavbar expand="lg" light bgColor="black">
         <MDBContainer fluid>
-          <MDBNavbarBrand href="/">Sunil Nilavarath</MDBNavbarBrand>
+          <img
+            src="https://i.pinimg.com/originals/9d/36/57/9d3657342bc10cfa2ac4ec930ae64c44.jpg"
+            alt="logo"
+            className="rounded-circle img-fluid mb-3"
+            style={{ maxWidth: "150px" }}
+          />
+
           <MDBNavbarToggler
-            type="button"
-            data-target="#navbarColor02"
-            aria-controls="navbarColor02"
+            aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
-            onClick={() => setShowNavColor(!showNavColor)}
+            onClick={() => setShowBasic(!showBasic)}
           >
             <MDBIcon icon="bars" fas />
           </MDBNavbarToggler>
-          <MDBCollapse show={showNavColor} navbar>
+
+          <MDBCollapse navbar show={showBasic}>
             <MDBNavbarNav className="me-auto mb-2 mb-lg-0">
-              <MDBNavbarItem className="active"></MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink href="/resume" className="text-light bg-dark">
+                <MDBNavbarLink
+                  active
+                  aria-current="page"
+                  href="/"
+                  className="text-light"
+                >
+                  Hello, World!
+                </MDBNavbarLink>
+              </MDBNavbarItem>
+              <MDBNavbarItem>
+                <MDBNavbarLink href="/resume" className="text-light">
                   Resume
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink href="/projects" className="text-light bg-dark">
+                <MDBNavbarLink href="/projects" className="text-light">
                   Projects
                 </MDBNavbarLink>
+              </MDBNavbarItem>
+
+              <MDBNavbarItem className="ms-auto" >
+               
+                    <MDBBtn
+                      floating
+                      className="m-1"
+                      style={{ backgroundColor: "#0082ca" }}
+                      href="https://www.linkedin.com/in/sunil-nilavarath-2b78a2a8/"
+                      role="button"
+                    >
+                      <MDBIcon fab icon="linkedin-in" />
+                    </MDBBtn>
+                    <MDBBtn
+                      floating
+                      className="m-1"
+                      style={{ backgroundColor: "#333333" }}
+                      href="https://github.com/SunyDoo"
+                      role="button"
+                    >
+                      <MDBIcon fab icon="github" />
+                    </MDBBtn>
+                    <MDBBtn
+                      floating
+                      className="m-1"
+                      style={{ backgroundColor: "#333333" }}
+                      href="https://medium.com/@snilavarath"
+                      role="button"
+                    >
+                      <MDBIcon fab icon="medium" />
+                    </MDBBtn>
+                  
               </MDBNavbarItem>
             </MDBNavbarNav>
           </MDBCollapse>
