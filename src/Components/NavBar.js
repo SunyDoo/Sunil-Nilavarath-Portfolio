@@ -71,6 +71,11 @@ export default function App() {
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem className="ms-auto">
+              <MDBNavbarItem>
+                <p className="text-light">
+                  Links
+                </p>
+              </MDBNavbarItem>
                 <MDBBtn
                   floating
                   className="m-1"
