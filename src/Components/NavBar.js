@@ -8,7 +8,6 @@ import {
   MDBNavbarItem,
   MDBNavbarLink,
   MDBBtn,
-
   MDBCollapse,
 } from "mdb-react-ui-kit";
 
@@ -62,41 +61,43 @@ export default function App() {
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
+                <MDBNavbarLink href="/skills" className="text-light">
+                  Skills
+                </MDBNavbarLink>
+              </MDBNavbarItem>
+              <MDBNavbarItem>
                 <MDBNavbarLink href="/projects" className="text-light">
                   Projects
                 </MDBNavbarLink>
               </MDBNavbarItem>
-
-              <MDBNavbarItem className="ms-auto" >
-               
-                    <MDBBtn
-                      floating
-                      className="m-1"
-                      style={{ backgroundColor: "#0082ca" }}
-                      href="https://www.linkedin.com/in/sunil-nilavarath-2b78a2a8/"
-                      role="button"
-                    >
-                      <MDBIcon fab icon="linkedin-in" />
-                    </MDBBtn>
-                    <MDBBtn
-                      floating
-                      className="m-1"
-                      style={{ backgroundColor: "#333333" }}
-                      href="https://github.com/SunyDoo"
-                      role="button"
-                    >
-                      <MDBIcon fab icon="github" />
-                    </MDBBtn>
-                    <MDBBtn
-                      floating
-                      className="m-1"
-                      style={{ backgroundColor: "#333333" }}
-                      href="https://medium.com/@snilavarath"
-                      role="button"
-                    >
-                      <MDBIcon fab icon="medium" />
-                    </MDBBtn>
-                  
+              <MDBNavbarItem className="ms-auto">
+                <MDBBtn
+                  floating
+                  className="m-1"
+                  style={{ backgroundColor: "#0082ca" }}
+                  href="https://www.linkedin.com/in/sunil-nilavarath-2b78a2a8/"
+                  role="button"
+                >
+                  <MDBIcon fab icon="linkedin-in" />
+                </MDBBtn>
+                <MDBBtn
+                  floating
+                  className="m-1"
+                  style={{ backgroundColor: "#333333" }}
+                  href="https://github.com/SunyDoo"
+                  role="button"
+                >
+                  <MDBIcon fab icon="github" />
+                </MDBBtn>
+                <MDBBtn
+                  floating
+                  className="m-1"
+                  style={{ backgroundColor: "#333333" }}
+                  href="https://medium.com/@snilavarath"
+                  role="button"
+                >
+                  <MDBIcon fab icon="medium" />
+                </MDBBtn>
               </MDBNavbarItem>
             </MDBNavbarNav>
           </MDBCollapse>

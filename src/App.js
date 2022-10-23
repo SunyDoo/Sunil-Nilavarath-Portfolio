@@ -5,9 +5,9 @@ import Home from "./Components/Home";
 import Footer from "./Components/Footer";
 import Resume from "./Components/Resume";
 import VideoCards from "./Components/VideoCards";
+import Skills from "./Components/Skills";
 
 function App() {
-
   return (
     <div className="App">
       <NavBar />
@@ -15,6 +15,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/resume" element={<Resume />} />
         <Route exact path="/projects" element={<VideoCards />} />
+        <Route exact path="/skills" element={<Skills />} />
       </Routes>
       <Footer />
     </div>

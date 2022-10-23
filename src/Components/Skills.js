@@ -1,20 +1,36 @@
 import React from "react";
-import { MDBContainer } from "mdb-react-ui-kit";
+import {
+  MDBCard,
+  MDBCardImage,
+  MDBCardFooter,
+  MDBCardGroup,
+  MDBRow,
+  MDBCol,
+} from "mdb-react-ui-kit";
+import skills from "../skills";
 
 function Skills() {
   return (
-    <MDBContainer
-      fluid
-      className="bg-dark shadow-1-strong"
-      style={{ position: "relative" }}
-    >
-      <img
-        src="https://i.pinimg.com/originals/ff/f0/da/fff0da24ccdcc48c57b14f44bd2de914.jpg"
-        className="img-fluid shadow-4"
-        alt="Resume"
-      />
-      <div className="video-responsive"></div>
-    </MDBContainer>
+    <>
+      <MDBRow className="row-cols-7 row-cols-md-5 g-3">
+          {skills.skills.map((skill) => (
+  
+            <MDBCard lg="4" md="6" className="mb-4">
+              <MDBCardImage
+                src={skill.image}
+                className="img-thumbnail"
+                alt="logo"
+                position="top"
+              />
+
+              <MDBCardFooter>
+                <small className="text-muted">{skill.name}</small>
+              </MDBCardFooter>
+            </MDBCard>
+     
+          ))}
+      </MDBRow>
+    </>
   );
 }
 
