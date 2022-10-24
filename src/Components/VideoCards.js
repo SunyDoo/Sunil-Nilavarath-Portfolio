@@ -10,7 +10,7 @@ export default function VideoCards() {
             <div className="card mb-3">
               <center>
                 <iframe
-                  width="600"
+                  width="60%"
                   height="500"
                   src={video.link}
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
