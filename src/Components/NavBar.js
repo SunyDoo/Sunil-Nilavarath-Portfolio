@@ -21,7 +21,7 @@ export default function App() {
           src="https://i.pinimg.com/originals/bf/ad/41/bfad41f2ac24994cb61872cfb455e382.jpg"
           className="img-fluid shadow-4"
           alt="Banner"
-          style={{ width: "100%", height: 300 }}
+          style={{ width: "60%", height: 300 }}
         />
       </div>
       <MDBNavbar expand="lg" light bgColor="black">
@@ -37,7 +37,7 @@ export default function App() {
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
-            bgColor="gray"
+            color="#fffff"
             onClick={() => setShowBasic(!showBasic)}
           >
             <MDBIcon icon="bars" fas />
