@@ -7,12 +7,13 @@ function Skills() {
     <>
       <MDBRow className="row-cols-7 row-cols-md-5 g-3">
         {skills.skills.map((skill) => (
-          <MDBCard lg="4" md="6" className="mb-4">
+          <MDBCard className="w-10">
             <MDBCardImage
               src={skill.image}
               className="img-thumbnail"
               alt="logo"
               position="top"
+              style={{ width: "100%", height: "100%" }}
             />
 
             <MDBCardFooter>
