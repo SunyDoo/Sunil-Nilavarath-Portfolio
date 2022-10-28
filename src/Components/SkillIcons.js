@@ -12,8 +12,8 @@ function SkillIcons() {
               src={skill.image}
               className="img-thumbnail"
               alt="logo"
-              width="20%"
-              height="10%"
+              width="40%"
+              height="40%"
             />
             <a href="#!">
               <div
