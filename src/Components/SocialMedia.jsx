@@ -6,7 +6,6 @@ const SocialMedia = () => (
     <div>
       <MDBBtn
         floating
-        className="m-1"
         style={{ backgroundColor: "#0082ca" }}
         href="https://www.linkedin.com/in/sunil-nilavarath-2b78a2a8/"
         role="button"
@@ -17,7 +16,6 @@ const SocialMedia = () => (
     <div>
       <MDBBtn
         floating
-        className="m-1"
         style={{ backgroundColor: "#333333" }}
         href="https://github.com/SunyDoo"
         role="button"
@@ -28,7 +26,6 @@ const SocialMedia = () => (
     <div>
       <MDBBtn
         floating
-        className="m-1"
         style={{ backgroundColor: "#333333" }}
         href="https://medium.com/@snilavarath"
         role="button"
