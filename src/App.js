@@ -8,7 +8,7 @@ import { Navbar } from "./Components";
 import VideoCards from "./Components/VideoCards";
 // import Skills from "./Components/Skills";
 import SkillIcons from "./Components/SkillIcons";
-import { About, Footer, Header, Skills, Resume, Projects } from "./container";
+import { About, Footer, Header, Skills, Resume, Projects, Contact } from "./container";
 
 function App() {
   return (
@@ -25,6 +25,7 @@ function App() {
       <Projects />
       <Skills />
       <Resume />
+      <Contact />
       <Footer />
     </div>
   );
