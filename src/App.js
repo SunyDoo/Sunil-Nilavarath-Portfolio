@@ -8,27 +8,23 @@ import { Navbar } from "./Components";
 import VideoCards from "./Components/VideoCards";
 // import Skills from "./Components/Skills";
 import SkillIcons from "./Components/SkillIcons";
-import {
-  About,
-  Footer,
-  Header,
-  Skills,
-  Home,
-  Resume,
-  Projects,
-} from "./container";
+import { About, Footer, Header, Skills, Resume, Projects } from "./container";
 
 function App() {
   return (
     <div className="app">
       <Navbar />
-      <Routes>
-        {/* <Route exact path="/" element={<Home />} /> */}
+      {/* <Routes>
+        <Route exact path="/" element={<Home />} />
         <Route exact path="/resume" element={<Resume />} />
         <Route exact path="/projects" element={<VideoCards />} />
         <Route exact path="/skills" element={<SkillIcons />} />
-      </Routes>
+      </Routes> */}
       <Header />
+      <About />
+      <Projects />
+      <Skills />
+      <Resume />
       <Footer />
     </div>
   );
