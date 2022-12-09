@@ -1,14 +1,22 @@
-import { Routes, Route } from "react-router-dom";
+// import { Routes, Route } from "react-router-dom";
 import "./App.scss";
 // import NavBar from "./Components/Navbar/NavBar";
 import { Navbar } from "./Components";
 // import Home from "./Components/Home";
 // import Footer from "./Components/Footer";
 // import Resume from "./Components/Resume";
-import VideoCards from "./Components/VideoCards";
+// import VideoCards from "./Components/VideoCards";
 // import Skills from "./Components/Skills";
-import SkillIcons from "./Components/SkillIcons";
-import { About, Footer, Header, Skills, Resume, Projects, Contact } from "./container";
+// import SkillIcons from "./Components/SkillIcons";
+import {
+  About,
+  Footer,
+  Header,
+  Skills,
+  Resume,
+  Projects,
+  Contact,
+} from "./container";
 
 function App() {
   return (
