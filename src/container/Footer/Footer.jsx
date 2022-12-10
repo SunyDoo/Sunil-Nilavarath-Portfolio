@@ -22,6 +22,10 @@ const Footer = () => {
             (646) 684-5947
           </a>
         </div>
+        
+      </div>
+      <div className="navbar-logo">
+        <img src={images.logo} alt="logo" />
       </div>
     </>
   );
