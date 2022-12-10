@@ -3,7 +3,8 @@ const skills = {
     {
       id: 1,
       name: "React",
-      image: "https://www.pngitem.com/pimgs/m/664-6644509_icon-react-js-logo-hd-png-download.png",
+      image:
+        "https://www.pngitem.com/pimgs/m/664-6644509_icon-react-js-logo-hd-png-download.png",
     },
     {
       id: 2,
@@ -64,6 +65,11 @@ const skills = {
       name: "Postman",
       image:
         "https://res.cloudinary.com/postman/image/upload/t_team_logo/v1629869194/team/2893aede23f01bfcbd2319326bc96a6ed0524eba759745ed6d73405a3a8b67a8",
+    },
+    {
+      id: 12,
+      name: "Git",
+      image: "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
     },
   ],
 };
