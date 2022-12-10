@@ -194,3 +194,10 @@
     margin: 2rem 0;
   }
 }
+
+.social__media {
+  flex-direction: row;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

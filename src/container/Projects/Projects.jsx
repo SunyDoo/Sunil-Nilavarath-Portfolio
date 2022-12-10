@@ -46,10 +46,10 @@ const Projects = () => {
                   {video.site ? (
                     <p className="card-text">
                       <a className="text-blue" href={video.github}>
-                        <AiFillGithub />
+                      <AiFillEye /> 
                         {video.site}
                       </a>
-                      <AiFillEye />
+                     
                     </p>
                   ) : null}
                 </motion.div>

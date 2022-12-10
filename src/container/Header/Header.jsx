@@ -1,7 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { MDBIcon, MDBBtn } from "mdb-react-ui-kit";
 
-import { AppWrap } from "../../wrapper";
+import { HeaderWrap } from "../../wrapper";
 import { images } from "../../constants";
 import "./Header.scss";
 
@@ -36,6 +37,38 @@ const Header = () => (
           <p className="p-text">Full Stack Web Developer</p>
           <p className="p-text">Twin Dad</p>
         </div>
+        <div className="tag-cmp app__flex">
+            <div>
+              <MDBBtn
+                floating
+                style={{ backgroundColor: "#0082ca" }}
+                href="https://www.linkedin.com/in/sunil-nilavarath-2b78a2a8/"
+                role="button"
+              >
+                <MDBIcon fab icon="linkedin-in" />
+              </MDBBtn>
+            </div>
+            <div>
+              <MDBBtn
+                floating
+                style={{ backgroundColor: "#333333" }}
+                href="https://github.com/SunyDoo"
+                role="button"
+              >
+                <MDBIcon fab icon="github" />
+              </MDBBtn>
+            </div>
+            <div>
+              <MDBBtn
+                floating
+                style={{ backgroundColor: "#333333" }}
+                href="https://medium.com/@snilavarath"
+                role="button"
+              >
+                <MDBIcon fab icon="medium" />
+              </MDBBtn>
+            </div>
+          </div>
       </div>
     </motion.div>
 
@@ -68,4 +101,4 @@ const Header = () => (
   </div>
 );
 
-export default AppWrap(Header, "home");
+export default HeaderWrap(Header, "home");
