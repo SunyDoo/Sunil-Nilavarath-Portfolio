@@ -14,7 +14,7 @@ const About = () => {
     {
       title: "Back End",
       description: "Ruby on Rails / PostGreSQL",
-      imgUrl: images.about03,
+      imgUrl: images.about04,
     },
     { title: "Full Stack", description: "", imgUrl: images.about01 },
   ];
