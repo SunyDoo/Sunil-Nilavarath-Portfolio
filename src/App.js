@@ -15,7 +15,6 @@ import {
   Skills,
   Resume,
   Projects,
-  Contact,
 } from "./container";
 
 function App() {
@@ -33,7 +32,6 @@ function App() {
       <Projects />
       <Skills />
       <Resume />
-      <Contact />
       <Footer />
     </div>
   );
