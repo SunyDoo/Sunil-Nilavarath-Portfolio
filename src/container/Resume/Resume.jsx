@@ -3,6 +3,7 @@ import { MDBContainer } from "mdb-react-ui-kit";
 import { motion } from "framer-motion";
 import "./Resume.scss";
 import { AppWrap } from "../../wrapper";
+import { images } from "../../constants";
 
 function Resume() {
   return (
@@ -16,7 +17,7 @@ function Resume() {
         style={{ position: "relative" }}
       >
         <img
-          src="https://i.pinimg.com/originals/d8/d6/59/d8d65963bb7f24aac9d29b0f30442f53.jpg"
+          src={images.spotify}
           className="img-fluid shadow-4"
           alt="Resume"
         />
