@@ -38,16 +38,17 @@ const Projects = () => {
                 </ul>
                 <motion.div>
                   <p className="card-text">
-                    <a className="text-blue" href={video.github}>
                       <AiFillGithub />
+                    <a className="text-blue" href={video.github}>
                       Github
                     </a>
                   </p>
                   {video.site ? (
                     <p className="card-text">
-                      <a className="text-blue" href={video.github}>
                       <AiFillEye /> 
-                        {video.site}
+                      <a className="text-blue" href={video.github}>
+                      
+                        Live Site
                       </a>
                      
                     </p>
