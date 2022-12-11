@@ -22,12 +22,12 @@ const About = () => {
   return (
     <>
       <h4 className="head-text">
-        Highly Motivated full-stack developer{" "}
+      🚀 Highly Motivated full-stack developer{" "}
         <span>Experienced in object-oriented programming</span> <br />
         Ruby on Rails, React, JavaScript <br></br>
         <span>strong skills in analytical thinking</span> <br />
         ability to thrive in fast-paced, challenging, and collaborative work
-        environments
+        environments 🪐
       </h4>
 
       <div className="app__profiles">

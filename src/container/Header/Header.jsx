@@ -34,8 +34,8 @@ const Header = () => (
         </div>
 
         <div className="tag-cmp app__flex">
-          <p className="p-text">Full Stack Web Developer</p>
-          <p className="p-text">Twin Dad</p>
+          <p className="p-text">Full Stack Web Developer 💻</p>
+          <p className="p-text">👶 Twin Dad 👶</p>
         </div>
         <div className="tag-cmp app__flex">
             <div>
@@ -48,6 +48,7 @@ const Header = () => (
                 <MDBIcon fab icon="linkedin-in" />
               </MDBBtn>
             </div>
+            <br></br>
             <div>
               <MDBBtn
                 floating
@@ -58,6 +59,7 @@ const Header = () => (
                 <MDBIcon fab icon="github" />
               </MDBBtn>
             </div>
+            <br></br>
             <div>
               <MDBBtn
                 floating

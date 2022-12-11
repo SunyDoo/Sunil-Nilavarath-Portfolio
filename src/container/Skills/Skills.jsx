@@ -12,7 +12,7 @@ const Skills = () => {
     <>
       <h2 className="head-text">
         {" "}
-        <span> Skills </span> & <span> Toolkit </span>{" "}
+        <span> Skills </span> & <span> Toolkit 🛠️ </span>{" "}
       </h2>
 
       <div className="app__skills-container">

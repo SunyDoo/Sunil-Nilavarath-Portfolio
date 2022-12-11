@@ -13,7 +13,7 @@ const Projects = () => {
       <h4 className="head-text">
         My
         <span> Portfolio </span>
-        of <span> Works </span>
+        of <span> Works 🤘</span>
       </h4>
       <center>
         <div className="app__work-filter-item">
