@@ -7,6 +7,9 @@ import { AppWrap } from "../../wrapper";
 function Resume() {
   return (
     <motion.div className="app__profiles">
+      <h4 className="head-text">
+        <span>Resume 🤓</span>
+      </h4>
       <MDBContainer
         fluid
         className="app__resume-item"
