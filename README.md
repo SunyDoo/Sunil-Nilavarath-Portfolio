@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# Welcome to My Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+My name is Sunil Nilavarath. I am a highly motivated, passionate, and ambitious Full Stack Software Engineer with a growth mindset. My recent career has been as a Respiratory Therapist with 8 years of experience in healthcare, where I developed strong skills in analytical thinking and an ability to thrive in fast-paced, challenging, and collaborative work environments to deliver life-saving care to patients in a critical care setting. While I enjoyed my current profession, my passion has always been in tech and pursuing a career as a software engineer. With the birth of my twins, I felt that it would be a good time to set forth on a new career path. In my time as an RT, I’ve learned how to work smarter when faced with new challenges. Even in the most stressful situations, I remain calm and task-oriented because I know I have a job that needs to be done. I look forward to growing my coding skills to develop new and exciting projects as a Software Engineer. I eagerly look forward to any and all opportunities that come!
 
-## Available Scripts
+## Technical Skillset
 
-In the project directory, you can run:
+Full Stack | React | Ruby on Rails | PostGresSQL | JavaScript | HTML | CSS
 
-### `npm start`
+## Tools
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Github | VS Code | Postman | Slack |
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Feel free to contact me!
 
-### `npm test`
+snilavarath@gmail.com
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### This Website was created using a React frontend
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thanks for stopping by!
