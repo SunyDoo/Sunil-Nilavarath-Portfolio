@@ -46,7 +46,7 @@ const Projects = () => {
                   {video.site ? (
                     <p className="card-text">
                       <AiFillEye />
-                      <a className="text-blue" href={video.github}>
+                      <a className="text-blue" href={video.site}>
                         Live Site
                       </a>
                     </p>
